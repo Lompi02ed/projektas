@@ -4,20 +4,6 @@
  ScannerB veikia taip pat kaip ScannerA, bet dirba su kitu katalogu `B`.
 
 ---
-struktūrą
-
-FileIndexerProject/
-├── Master/
-│   ├── Master.cs
-│   ├── WordIndex.cs
-├── ScannerA/
-│   ├── ScannerA.cs
-│   ├── WordIndex.cs
-├── ScannerB/
-│   ├── ScannerB.cs
-│   ├── WordIndex.cs
-
----
 
 istorija
 
@@ -33,3 +19,7 @@ istorija
  "WordIndex.cs" yra bendras duomenų modelis, naudojamas JSON perdavimui tarp agentų ir Master.
  Named pipes veikia tik kai Master startuoja pirmas.
  CPU šerdys nustatomos su "ProcessorAffinity".
+
+
+![image](https://github.com/user-attachments/assets/fad41ddd-8444-4439-919e-746c5a4b69d5)
+
